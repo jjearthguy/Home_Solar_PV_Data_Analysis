@@ -1,4 +1,5 @@
 ########## Libraries ##########
+import config
 import json
 import requests
 
@@ -13,7 +14,7 @@ import requests
 url = "https://monitoringapi.solaredge.com/"
 
 ### API Key from SolarEdge
-key = "KOFTNIN0DHCCNHL2WQ1ISTMG9UH4GF7D"
+key = config.key
 params = {'api_key': key}
 
 ### SolarEdge Site Number
