@@ -1,2 +1,2 @@
-pythonvenv/
-*.DS_Store
+.venv/
+.DS_Store
